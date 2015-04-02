@@ -1,0 +1,7 @@
+# This is a comment
+
+# Ignore the file CONTRIBUTING.md
+CONTRIBUTING.md
+
+# Ignore everything in the directory "bin"
+bin/*

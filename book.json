@@ -1,0 +1,18 @@
+{
+    "gitbook": "2.0.0",
+    "title": "Coding for Hippies",
+    "description": "Crunchy coding",
+    "language": "en",
+    "structure": {
+        "readme": "intro.md"
+    },
+    "variables": {
+      "authors": [
+        { "name": "Phillip Lamplugh" },
+        { "name": "Dana Reilly" }
+      ]
+    },
+    "plugins": [
+      "quizzes@1.0.0"
+    ]
+}
