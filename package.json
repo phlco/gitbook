@@ -1,0 +1,10 @@
+{
+    "name": "WDI-Fundamentals",
+    "version": "0.1.0",
+    "description": "Pre-course Module for General Assembly's WDI Program",
+    "author": "General Assembly <immersiveadmins@generalassemb.ly>",
+    "dependencies": {
+        "gitbook-plugin-quizzes": "1.0.0",
+        "gitbook-plugin-exercises": "2.0.0-alpha.3"
+    }
+}

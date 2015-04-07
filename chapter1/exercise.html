@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>Chapter 1 | Coding for Hippies</title>
+        <title>Exercise | Coding for Hippies</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.0.0">
@@ -15,13 +15,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
         
     
     
     
-    <link rel="prev" href="./index.html" />
+    <link rel="prev" href="../chapter1/quiz.html" />
     
 
         
@@ -29,16 +29,20 @@
     <body>
         
         
-    <link rel="stylesheet" href="gitbook/style.css">
+    <link rel="stylesheet" href="../gitbook/style.css">
     
         
-        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-quizzes/quizzes.css">
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-quizzes/quizzes.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-exercises/exercises.css">
         
     
     
 
         
-    <div class="book" data-level="1" data-basepath="." data-revision="Thu Apr 02 2015 14:15:04 GMT-0400 (EDT)">
+    <div class="book" data-level="2" data-basepath=".." data-revision="Thu Apr 02 2015 14:45:06 GMT-0400 (EDT)">
     
 
 <div class="book-summary">
@@ -58,7 +62,7 @@
         <li class="chapter " data-level="0" data-path="index.html">
             
                 
-                    <a href="./index.html">
+                    <a href="../index.html">
                         <i class="fa fa-check"></i>
                         
                         Introduction
@@ -68,15 +72,30 @@
             
         </li>
     
-        <li class="chapter active" data-level="1" data-path="chapter1.html">
+        <li class="chapter " data-level="1" data-path="chapter1/quiz.html">
             
                 
-                    <a href="./chapter1.html">
+                    <a href="../chapter1/quiz.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.</b>
                         
-                        Chapter 1
+                        Quiz
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2" data-path="chapter1/exercise.html">
+            
+                
+                    <a href="../chapter1/exercise.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Exercise
                     </a>
                 
             
@@ -101,7 +120,7 @@
     <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
     <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
     
-    <a href="./GLOSSARY.html" class="btn pull-left" aria-label="Glossary"><i class="fa fa-sort-alpha-asc"></i></a>
+    <a href="../GLOSSARY.html" class="btn pull-left" aria-label="Glossary"><i class="fa fa-sort-alpha-asc"></i></a>
     
     <div id="font-settings-wrapper" class="dropdown pull-left">
         <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
@@ -166,7 +185,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="./" >Coding for Hippies</a>
+        <a href="../" >Coding for Hippies</a>
     </h1>
 </div>
 
@@ -176,22 +195,39 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="chapter-1-the-world-is-bound-by-hidden-knots">Chapter 1 - the world is bound by hidden knots</h1>
-<p>  this will {{ not be processed }}</p>
-<hr>
-<p>Mark the editor&apos;s contents as a comment</p>
-<pre><code class="lang-js">
-Mark me as a comment
-or I&apos;ll throw an error
-</code></pre>
-<pre><code class="lang-js"><span class="hljs-comment">/*
-Mark me as a comment
-or I&apos;ll throw an error
-*/</span>
-</code></pre>
-<pre><code class="lang-js">assert(<span class="hljs-literal">true</span>);
-</code></pre>
-<hr>
+                        <h1 id="exercise">Exercise</h1>
+<p><div class="exercise">
+	<div class="header">Exercise</div>
+	<div class="alert alert-success">
+	    <b>Correct!</b>
+	</div>
+
+	<div class="alert alert-danger error-message">
+	    <b>False!</b>
+	</div>
+
+	<div class="message">
+	
+Define a variable `x` equal to 10.
+
+	</div>
+	<div class="editor" style="height: 20px">var x =</div>
+
+	<pre class="hidden code-solution">var x = 10;</pre>
+	<pre class="hidden code-validation">assert(x == 10);</pre>
+	
+	<pre class="hidden code-context">// This is context code available everywhere
+// The user will be able to call magicFunc in his code
+function magicFunc() {
+    return 3;
+}</pre>
+	
+
+	<div class="buttons">
+	    <a href="#" class="button size-2 action-submit">Submit</a>
+	    <a href="#" class="button size-2 action-solution">Solution</a>
+	</div>
+</div></p>
 
                     
                     </section>
@@ -202,17 +238,37 @@ or I&apos;ll throw an error
         </div>
 
         
-        <a href="./index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: "><i class="fa fa-angle-left"></i></a>
+        <a href="../chapter1/quiz.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Quiz"><i class="fa fa-angle-left"></i></a>
         
         
     </div>
 </div>
 
         
-<script src="gitbook/app.js"></script>
+<script src="../gitbook/app.js"></script>
 
     
-    <script src="gitbook/plugins/gitbook-plugin-quizzes/quizzes.js"></script>
+    <script src="../gitbook/plugins/gitbook-plugin-quizzes/quizzes.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/ace.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/theme-tomorrow.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/mode-javascript.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/exercises.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
     
 
 <script>
@@ -222,7 +278,7 @@ require(["gitbook"], function(gitbook) {
 });
 </script>
 
-        
+        <script src="../gitbook/plugins/gitbook-plugin-exercises/jsrepl/jsrepl.js" id="jsrepl-script"></script>
     </body>
     
 </html>
