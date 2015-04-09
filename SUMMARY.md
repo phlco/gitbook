@@ -1,5 +1,5 @@
 # Summary
 
-[Chapter 1](chapter1/README.md)
-  * [Quiz](chapter1/quiz.md)
-  * [Exercise](chapter1/exercise.md)
+[Chapter 1](chapters/01/intro.md)
+  * [Quiz](chapters/01/quiz.md)
+  * [Exercise](chapters/01/exercise.md)
